@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin:auto;
+}
+.logo {
+    margin-left: 30px;
+    font-size: 24px;
+    color: #f9faf8;
+}
+.top {
+    background-color: #1f2937;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu-list ul li {
+    display: inline-block;
+    padding: 0 10px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+.header-content {
+    width: 90%;
+    height: 250px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.text-area {
+    width: 50%;
+}
+.text-area h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.submit{
+    background-color: #3882f6;
+    width: 5em;
+    height: 2em;
+    border-radius: 5px;
+    color: #f9faf8;
+}
+
+.text-area p{
+    color: #f9faf8;
+}
+
+.placeholder {
+    width: 400px;
+    height: 150px;
+    border: 1px solid #134;
+    margin-left: 20px;
+    background-color: #e5e7eb;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.body-content {
+    width: 60%;
+    padding: 20px;
+}
+
+.body-title {
+    font-size: 24px;
+    color: #1f2937;
+    text-align: center;
+    margin: 10px;
+}
+.body-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+small {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.text-quote {
+    background-color: #e5e7eb;
+    height: 300px;
+    padding: 10px;;
+}
+
+.text-quote p {
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.cre {
+    text-align: right;
+    width: 60%;
+}
+
+.credit {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.subscribe {
+    margin: 50px auto;
+    background-color: #3882f6;
+    display: flex;
+    width: 50%;
+    padding: 15px 0;
+}
+
+.text {
+    color: #fff;
+}
+
+.subscribe  input {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: #1f2937;
+    padding: 10px;
+    color: #fff;
+}
